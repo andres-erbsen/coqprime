@@ -28,7 +28,6 @@ src/Coqprime/PrimalityTest/Pocklington.v
 src/Coqprime/PrimalityTest/Proth.v
 src/Coqprime/PrimalityTest/Root.v
 src/Coqprime/PrimalityTest/Zp.v
-src/Coqprime/elliptic/GZnZ.v
 src/Coqprime/elliptic/SMain.v
 src/Coqprime/elliptic/ZEll.v
 src/Coqprime/num/Bits.v
