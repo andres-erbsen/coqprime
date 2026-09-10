@@ -1,11 +1,11 @@
 ifeq "$(COQBIN)" ""
-  COQBIN=$(dir $(shell which coqtop))/
+  COQBIN=$(dir $(shell which rocq 2>/dev/null))/
 endif
 
 %: Makefile.coq
 
 Makefile.coq: _CoqProject
-	$(COQBIN)coq_makefile -f _CoqProject -o Makefile.coq
+	"$(COQBIN)rocq" makefile -f _CoqProject -o Makefile.coq
 
 tests: all
 	@$(MAKE) -C tests -s clean
