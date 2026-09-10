@@ -215,5 +215,3 @@ we will do the job for you.
 You can download the source and use `make`. There is also some `opam` packages :
 `coq-coqprime` for the library and `coq-coqprime-generator` for the certificate
 generator `pocklington`
-
-
